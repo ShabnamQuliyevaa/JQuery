@@ -1,0 +1,34 @@
+body {
+    background-color: #ddd;
+}
+.img {
+    height: 150px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+    position: relative;
+}
+
+#sekil {
+    height: 70vh;
+    cursor: pointer;
+    position: absolute;
+    z-index: 12;
+}
+
+.pic{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    position: relative;
+    
+}
+
+.image {
+    width: 500px;
+    height: 70vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
